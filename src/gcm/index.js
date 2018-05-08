@@ -48,7 +48,7 @@ async function checkIn(androidId, securityToken) {
 
 async function doRegister({ androidId, securityToken }, appId) {
   const body = {
-    app         : 'org.chromium.linux',
+    app         : 'com.vk.quiz',
     'X-subtype' : appId,
     device      : androidId,
     sender      : serverKey,
